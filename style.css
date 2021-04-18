@@ -217,8 +217,8 @@ div.tags, div.authors {
     color: #9E9E9E;
     font-size: 0.8em;
     padding: 0;
-    display: inline-flex;
-    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
