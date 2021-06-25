@@ -216,6 +216,7 @@ Once you got used to these handy features, there is no way for you ever going ba
 
 #### Final comparison for exports of Inkscape
 
+<div style="overflow-x: auto;">
 
 | Method                          | Export PNG | Text to Path | Embedding Fonts | Omit text in PDF + LaTeX file |
 |---------------------------------|:----------:|:------------:|:---------------:|:-----------------------------:|
@@ -226,6 +227,8 @@ Once you got used to these handy features, there is no way for you ever going ba
 | Same font as document*          |  &#x274c;  |   &#x274c;   |    &#x274c;     |           &#x2714;            |
 | Consistent font size            |  &#x274c;  |   &#x274c;   |    &#x274c;     |           &#x2714;            |
 | LaTeX commands                  |  &#x274c;  |   &#x274c;   |    &#x274c;     |           &#x2714;            |
+
+</div>
 
 \* In theory, the same font could always be achieved, if one configures Inkscape to use the latex font.
 However, only for `pdf_tex` the font will change automatically depending on the document's font.

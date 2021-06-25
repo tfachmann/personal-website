@@ -149,7 +149,7 @@ div#footer div {
 }
 
 div.blog_box {
-    width: max-content;
+    max-width: max-content;
     /*border-bottom:2px solid #933300;*/
     /*border-right:2px solid #933300;*/
     /*background-color: #b84000;*/
@@ -369,7 +369,7 @@ button[disabled] {
 
 table {
   border-collapse: collapse;
-  width: 100%;
+  max-width: 100%;
 }
 
 thead {
