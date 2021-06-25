@@ -339,6 +339,7 @@ div.image-caption {
 div.image-caption > img  {
     max-height: 300px;
     margin-bottom: 2px;
+    width: auto;
 }
 
 div.image-caption > span  {
