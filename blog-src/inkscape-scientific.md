@@ -18,7 +18,7 @@ Trying to enlarge it exceeding its original size makes the picture blurry, as th
 One solution is to save your bitmap in a high quality, where the drawback comes with a large file size which one would not want to have on your web page.
 It may also exceed the limits of the publishers requirements, or he decides to scale it down anyway leading to the very same problem.
 
-<img src="../src/wikipedia_bitmap_vs_svg_black.svg">
+<img src="../src/bitmap_vs_svg.svg">
 
 As a vector graphic is a collection of instructions and formulas, it can be scaled arbitrary and won't lose any information and quality.
 The file size is typically a fraction of a bitmap and therefore the preferred source for web pages, PDFs and other digital formats where the user might zoom in as much as he or she wants.
