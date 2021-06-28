@@ -27,10 +27,10 @@ This doesn't really matter on a printed format, as the only way for the user to 
 
 ### Inkscape for SVG Editing
 
-[Inkscape](https://inkscape.org/) is a free and [open-source](https://gitlab.com/inkscape/inkscape) vector graphics editor for all major platforms, which has been around for roughly 20 years.
+[Inkscape](https://www.inkscape.org/) is a free and [open-source](https://www.gitlab.com/inkscape/inkscape) vector graphics editor for all major platforms, which has been around for roughly 20 years.
 It has a steep learning curve, but I highly recommend investing the time to learn it.
 The skill to efficiently use inkscape is something that will stay with you for the rest of your life and may be useful in many situations.
-A great resource is the official documentation which can be found [here](https://inkscape-manuals.readthedocs.io/en/latest/index.html).
+A great resource is the official documentation which can be found [here](https://www.inkscape-manuals.readthedocs.io/en/latest/index.html).
 
 If you are like me, and mostly create and use figures in the context of a thesis, paper or other formats where the outcome is a PDF, then you probably already have a brief understanding of how large in size your figure will be.
 <div class="blog_box">
@@ -158,14 +158,14 @@ Having two files means that the figure is now no longer self-contained and might
 
 Now that latex will do the rendering, it will also render commands such as `\emph{}` or recognizes the math mode `$\pi$`.
 Therefore, we can now type the symbol of the balls radius exactly as it is in the text (caption): `$r_{\text{BALL}} = \SI{50}{\milli\meter}$`.
-Within Inkscape it will look like that:
+In Inkscape it looks like that:
 
 <img src="../src/inkscape_comparison_editor_02.png">
 
 Yes, I have to admit that editing the `svg` is quite inconvenient now, as we *do **not** see what we get* anymore.
-Note, that the placement of the text entry within latex will be on the left center of the field and only the beginning of the text has to be within the drawing.
-You can change the size and aspect ratio of it without affecting the rendered output.
-Depending on the amount of commands involved in the text, things can become very messy, so I suggest decreasing to a size where everything can still be read.
+Note, that the placement of the text entry within latex will be on the left center of the field where only the beginning of the text has to be within the drawing.
+Depending on the amount of commands involved, things can become very messy.
+When editing the `svg`, I often lower the size and aspect ratio of the text, as this won't affect the rendered output but improves readability by a lot.
 
 To import a `pdf_tex` file in a figure, one might use the following snippet which includes tweaks to change the `fontsize` and `width` of the figure:
 
@@ -289,7 +289,7 @@ clean:
 
 The presented `makefile` should be put in an `images-src` folder and does the following things:
 1. creates a binary folder (`../images-bin`) if not present
-2. detects all source files (`wildcard *.svg`, `wildcard *png`, ...)
+2. detects all source files (`wildcard *.svg`)
 3. converts the `svg`s to `pdf` + `pdf_tex` by using Inkscape from the commandline
 
-It allows us to not bother of anything but the source files while we are still able to convert them to `pdf_tex` automatically.
+This allows us to only focus on the source files for editing and version control, while we are still able to convert them to `pdf_tex` automatically.
