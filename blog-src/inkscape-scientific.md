@@ -103,11 +103,11 @@ On the first sight it looks okay, but actually there are some issues. The raster
 
 <div class="image-flex">
     <div class="image-caption">
-        <img src="../src/inkscape_comparison_03.png">
+        <img src="../src/inkscape_comparison_png_02.png">
         <span>Rasterized image</span>
     </div>
     <div class="image-caption">
-        <img src="../src/inkscape_comparison_02.png">
+        <img src="../src/inkscape_comparison_png_03.gif">
         <span>Non-selectable text</span>
     </div>
 </div>
@@ -123,7 +123,7 @@ However, as we can see in the second image, the font isn't even selectable yet.
         <span>No loss of quality</span>
     </div>
     <div class="image-caption">
-        <img src="../src/inkscape_comparison_text_to_path_01.png">
+        <img src="../src/inkscape_comparison_text_to_path_03.gif">
         <span>Non-selectable text</span>
     </div>
 </div>
@@ -139,7 +139,7 @@ By *embedding fonts*, the issue of it being non-selectable is now solved, but th
         <span>No loss of quality</span>
     </div>
     <div class="image-caption">
-        <img src="../src/inkscape_comparison_embedd_01.png">
+        <img src="../src/inkscape_comparison_embedd_03.gif">
         <span>Selectable text</span>
     </div>
 </div>
@@ -189,7 +189,7 @@ When we look at the results, the image is not rasterized, we have the very same 
         <span>Correct symbols</span>
     </div>
     <div class="image-caption">
-        <img src="../src/inkscape_comparison_pdf_tex_01.png">
+        <img src="../src/inkscape_comparison_pdf_tex_03.gif">
         <span>Selectable text</span>
     </div>
 </div>
