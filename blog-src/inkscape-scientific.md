@@ -195,7 +195,7 @@ When we look at the results, the image is not rasterized, we have the very same 
 </div>
 
 Taking things to another level, I introduce you to some black magic:
-As LaTex will do the rendering for you, it is capable of interpreting any commands within the document's environment.
+As latex will do the rendering for you, it is capable of interpreting any commands within the document's environment.
 We can embrace that, by following [latex best practices](https://www.gleave.me/post/latex-design-patterns/) in terms of a typical [design pattern](https://en.wikipedia.org/wiki/Software_design_pattern) in software engineering: [Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 (DRY).
 The part where we *do* repeat ourselves, is in the symbol of the Christmas ball's radius that we set to `r_{\text{BALL}}`.
@@ -293,3 +293,8 @@ The presented `makefile` should be put in an `images-src` folder and does the fo
 3. converts the `svg`s to `pdf` + `pdf_tex` by using Inkscape from the commandline
 
 This allows us to only focus on the source files for editing and version control, while we are still able to convert them to `pdf_tex` automatically.
+
+### Comments
+
+Discuss it on [reddit](https://www.reddit.com/user/Banana_tnoob/comments/obiy64/creating_beautiful_figures_for_scientific_writing/?utm_source=share&utm_medium=web2x&context=3)
+
